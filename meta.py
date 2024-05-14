@@ -1,11 +1,10 @@
 HEADER_INFO = """""".strip()
 SIDEBAR_INFO = """
 <div class="contributors font-body text-bold">
-<a class="contributor comma" href="https://huggingface.co/m3hrdadfi">Mehrdad Farahani</a>
-<a class="contributor comma" href="https://huggingface.co/dk-crazydiv">Kartik Godawat</a>
-<a class="contributor comma" href="https://huggingface.co/hassiahk">Haswanth Aekula</a>
-<a class="contributor comma" href="https://huggingface.co/rays2pix">Deepak Pandian</a>
-<a class="contributor comma" href="https://huggingface.co/nbroad">Nicholas Broad</a>
+<a class="contributor comma" href="https://prathamsingh.vercel.app/">Pratham Singh</a>
+<a class="contributor comma" href="https://github.com/Manav3340">Manva S</a>
+<a class="contributor comma" href="https://github.com/PRATHAMSHARMA2003">Pratham Sharma</a>
+<a class="contributor comma" href="https://github.com/mammar11">Mohammed Ammaruddin</a>
 </div>
 """
 CHEF_INFO = """
@@ -20,7 +19,7 @@ STORY = """
 <div class="story-box font-body">
 <p>
 Hello everyone 👋, I am <strong>Chef Transformer</strong>, 
-the owner of this restaurant. I was made by a group of <a href="https://huggingface.co/flax-community/t5-recipe-generation#team-members">NLP Engineers</a> to train my two prodigy recipe creators: <strong>Chef Scheherazade</strong> and <strong>Chef Giovanni</strong>. 
+the owner of this restaurant. I was made by a group of <a href="https://prathamsingh.vercel.app/">Engineers</a> to train my two prodigy recipe creators: <strong>Chef Scheherazade</strong> and <strong>Chef Giovanni</strong>. 
 Both of my students participated in my rigorous culinary program, <a href="https://huggingface.co/flax-community/t5-recipe-generation">T5 fine-tuning</a>, 
 to learn how to prepare exquisite cuisines from a wide variety of ingredients. 
 I've never been more proud of my students -- both can produce exceptional dishes but I regard Scheherazade as being <em>creative</em> while Giovanni is <em>meticulous</em>. 
@@ -45,10 +44,9 @@ I trained my chefs by asking them to generate a title, a list of ingredients (in
 <p>
 In the span of a week, my chefs went from spitting out nonsense to creating masterpieces. 
 Their learning rate was exceptionally high and each batch of recipes was better than the last. <br />
-In their final exam, they achieved <a href="https://huggingface.co/flax-community/t5-recipe-generation#evaluation">high scores</a> 💯 in a 
+In their final exam, they achieved <a href="https://prathamsingh.vercel.app/">high scores</a> 💯 in a 
 standardized industry test and established this restaurant 🍲. Please tell your friends and family about us! 
-We create each recipe with a smile on our faces 🤗 Everyone at the restaurant is grateful for the generous support of 
-HuggingFace and Google for hosting Flax Community week. 
+We create each recipe with a smile on our faces 🤗
 </p>
 
 </div>
