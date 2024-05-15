@@ -20,7 +20,7 @@ STORY = """
 <p>
 Hello everyone 👋, I am <strong>Chef Transformer</strong>, 
 the owner of this restaurant. I was made by a group of <a href="https://prathamsingh.vercel.app/">Engineers</a> to train my two prodigy recipe creators: <strong>Chef Scheherazade</strong> and <strong>Chef Giovanni</strong>. 
-Both of my students participated in my rigorous culinary program, <a href="https://huggingface.co/flax-community/t5-recipe-generation">T5 fine-tuning</a>, 
+Both of my students participated in my rigorous culinary program, <a href="https://prathamsingh.vercel.app/">T5 fine-tuning</a>, 
 to learn how to prepare exquisite cuisines from a wide variety of ingredients. 
 I've never been more proud of my students -- both can produce exceptional dishes but I regard Scheherazade as being <em>creative</em> while Giovanni is <em>meticulous</em>. 
 If you give each of them the same ingredients, they'll usually come up with something different. <br /><br />
@@ -38,9 +38,6 @@ I trained my chefs by asking them to generate a title, a list of ingredients (in
     directions: {DIRECTIONS: separated by &lt;sep>}.
 </pre>
 
-<p>
-  <em>In the cookbooks (a.k.a <a href="https://huggingface.co/datasets/recipe_nlg">dataset</a>), the food items were referred to as NER. </em>
-</p>
 <p>
 In the span of a week, my chefs went from spitting out nonsense to creating masterpieces. 
 Their learning rate was exceptionally high and each batch of recipes was better than the last. <br />
