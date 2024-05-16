@@ -47,8 +47,8 @@ class TextGeneration:
         self.no_food = "asset/frame/no_food.png"
         self.logo_frame = "asset/frame/logo.png"
         self.chef_frames = {
-            "scheherazade": "asset/frame/food-image-logo-bg-s.png",
-            "giovanni": "asset/frame/food-image-logo-bg-g.png",
+            "Sanjiv": "asset/frame/food-image-logo-bg-s.png",
+            "Vikas": "asset/frame/food-image-logo-bg-g.png",
         }
         self.fonts = {
             "title": ImageFont.truetype("asset/fonts/Poppins-Bold.ttf", 70),
