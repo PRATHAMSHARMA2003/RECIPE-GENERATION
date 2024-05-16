@@ -11,8 +11,8 @@ SIDEBAR_INFO = """
 CHEF_INFO = """
 <h2 class="font-title">Welcome to our lovely restaurant! </h2>
 <p class="strong font-body">
-<span class="d-block extra-info">(We are at your service with two of the best chefs in the world: Chef Scheherazade, 
-Chef Giovanni. Scheherazade is known for being more creative whereas Giovanni is more meticulous.)</span>
+<span class="d-block extra-info">(We are at your service with two of the best chefs in the world: Chef Sanjiv Kapoor, 
+Chef Vikas Kapoor )</span>
 </p>
 """.strip()
 PROMPT_BOX = "Add custom ingredients here (separated by `,`): "
