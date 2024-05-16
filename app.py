@@ -185,7 +185,7 @@ chef_beam = {
 
 def main():
     st.set_page_config(
-        page_title="Chef Transformer",
+        page_title="RECIPE GENRATION",
         page_icon="🍲",
         layout="wide",
         initial_sidebar_state="expanded"
@@ -212,7 +212,7 @@ def main():
         st.markdown(meta.HEADER_INFO, unsafe_allow_html=True)
 
         st.markdown(meta.CHEF_INFO, unsafe_allow_html=True)
-        chef = st.selectbox("Choose your chef", index=0, options=["Chef Scheherazade", "Chef Giovanni"])
+        chef = st.selectbox("Choose your chef", index=0, options=["Chef Sanjiv Kapoor", "Chef Vikas Khanna"])
 
         prompts = list(EXAMPLES.keys()) + ["Custom"]
         prompt = st.selectbox(
