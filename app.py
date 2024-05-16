@@ -47,8 +47,8 @@ class TextGeneration:
         self.no_food = "asset/frame/no_food.png"
         self.logo_frame = "asset/frame/logo.png"
         self.chef_frames = {
-            "Sanjiv": "asset/frame/food-image-logo-bg-s.png",
-            "Vikas": "asset/frame/food-image-logo-bg-g.png",
+            "Scheherazade": "asset/frame/food-image-logo-bg-s.png",
+            "Giovanni": "asset/frame/food-image-logo-bg-g.png",
         }
         self.fonts = {
             "title": ImageFont.truetype("asset/fonts/Poppins-Bold.ttf", 70),
@@ -212,7 +212,7 @@ def main():
         st.markdown(meta.HEADER_INFO, unsafe_allow_html=True)
 
         st.markdown(meta.CHEF_INFO, unsafe_allow_html=True)
-        chef = st.selectbox("Choose your chef", index=0, options=["Chef Sanjiv", "Chef Vikas"])
+        chef = st.selectbox("Choose your chef", index=0, options=["Chef Scheherazade", "Chef Giovanni"])
 
         prompts = list(EXAMPLES.keys()) + ["Custom"]
         prompt = st.selectbox(
@@ -255,7 +255,7 @@ def main():
                     f"your food? "
                 )
             else:
-                gen_kw = chef_top if chef == "Chef Sanjiv" else chef_beam
+                gen_kw = chef_top if chef == "Chef Scheherazade" else chef_beam
                 generated_recipe = generator.generate(items, gen_kw)
 
                 title = generated_recipe["title"]
